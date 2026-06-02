@@ -1,4 +1,4 @@
-# 🌍 Cidades do Mundo
+# 🌍 Camalheia
 
 Aplicação web desenvolvida em **PHP** para gestão de cidades, com sistema de autenticação de utilizadores, CRUD completo e gestão de fotografias.
 
@@ -72,38 +72,6 @@ A aplicação utiliza duas tabelas principais:
 | `pass_u` | VARCHAR | Password encriptada (`PASSWORD_DEFAULT`) |
 | `nivel_u` | INT | Nível de acesso |
 
----
-
-## ⚙️ Instalação
-
-1. **Clonar o repositório**
-   ```bash
-   git clone https://github.com/teu-utilizador/cidades-do-mundo.git
-   ```
-
-2. **Configurar o servidor local** (ex: XAMPP, WAMP, Laragon)  
-   Colocar o projeto dentro da pasta `htdocs` ou equivalente.
-
-3. **Criar a base de dados**  
-   Importar o ficheiro SQL (se disponível) ou criar manualmente as tabelas acima indicadas.
-
-4. **Configurar a ligação**  
-   Editar `includes/funcoes.php` com as credenciais da base de dados:
-   ```php
-   function criar_conexao() {
-       return new PDO("mysql:host=localhost;dbname=NOME_DA_BD", "utilizador", "password");
-   }
-   ```
-
-5. **Criar a pasta de imagens**  
-   Garantir que a pasta `imgs/cidades/` existe e tem permissões de escrita.
-
-6. **Aceder à aplicação**  
-   ```
-   http://localhost/cidades-do-mundo/
-   ```
-
----
 
 ## 🔒 Segurança
 
@@ -125,4 +93,4 @@ A aplicação utiliza duas tabelas principais:
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins académicos.
+Este projeto foi desenvolvido no âmbito do curso CET em Aplicações de Informática de Gestão, na unidade curricular UC0606- Desenvolver Programas em Linguagem Estruturada.
